@@ -1,5 +1,5 @@
 import React from 'react';
-import './schedulepage.css'; // Tambahkan styling sesuai kebutuhan
+import './schedulepage.css';
 
 function Card({ schedule }) {
     return (

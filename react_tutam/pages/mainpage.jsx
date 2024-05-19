@@ -12,11 +12,11 @@ function MainPage() {
     useEffect(() => {
       const getDetails = async () => {
         try {
-          const response = await fetch(`http://localhost:4000/planeT/getUser/${encodeURIComponent(email)}`); // Perubahan pada URL endpoint
+          const response = await fetch(`http://localhost:4000/planeT/getUser/${encodeURIComponent(email)}`); 
           if (response.status === 200) {
             const data = await response.json();
             setUserDetail(data.account[0]);
-          } else if (response.status === 404) { // Handle jika akun tidak ditemukan
+          } else if (response.status === 404) { 
             alert("Account not found");
           } else {
             alert("Failed to get user details");
@@ -33,16 +33,16 @@ function MainPage() {
     const handleRemoveAccountClick = async () => {
         try {
           const response = await fetch(`http://localhost:4000/planeT/removeAccount/${encodeURIComponent(email)}`, {
-            method: 'DELETE', // Assuming the removeAccount endpoint uses POST
+            method: 'DELETE', 
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ email }), // Send the email to identify which account to remove
+            body: JSON.stringify({ email }),
           });
 
           if (response.status === 200) {
             alert('Account removed successfully');
-            navigate('/login'); // Redirect to login page
+            navigate('/login'); 
           } else {
             alert('Failed to remove account');
           }
@@ -56,7 +56,7 @@ function MainPage() {
         event.preventDefault();
         try {
           const response = await fetch(`http://localhost:4000/planeT/getTicket/${encodeURIComponent(ticket_id)}`, {
-            method: 'GET', // Assuming the removeAccount endpoint uses POST
+            method: 'GET', 
             headers: {
               'Content-Type': 'application/json',
             },

@@ -53,7 +53,6 @@ function BookingPage() {
 
       if (response.status === 200) {
         alert(`Message: ${datas.message}, Ticket ID: ${datas.ticket[0].ticket_id}`);
-        // Optionally, you can navigate to another page or reset the form here
         // navigate(`/somePage/${email}`);
       } else {
         alert(`${datas.message}`);
