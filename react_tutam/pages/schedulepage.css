@@ -1,0 +1,40 @@
+.card {
+    border: 1px solid #453a3a;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.airline{
+    font-size: 30px;
+    font-family: Impact;
+    color: rgb(117, 78, 27);
+}
+
+.airlinesch{
+    font-size: 30px;
+    margin-top: 1rem;
+    font-family: Impact;
+    color: rgb(65, 42, 24);
+    text-align: center;
+}
+
+.airplanedetail{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.bgsc{
+    background-color: rgb(195, 177, 153) ;
+    height: 100%;
+  }
+
+  .bgscc{
+    background-color: rgb(213, 201, 183) ;
+    height: 100%;
+  }

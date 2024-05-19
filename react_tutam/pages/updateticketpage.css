@@ -1,0 +1,269 @@
+.form-container {
+    width: 30rem;
+    height: 35rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(205, 203, 201);
+    border: 1px solid rgb(132, 126, 113);
+    border-radius: 15px;
+    display: flex; 
+    
+    margin-top: 3rem;
+    align-items: left; 
+    text-align: left;
+  }
+
+
+  .form-containerbook {
+    width: 40rem;
+    height: 35rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(205, 203, 201);
+    border: 1px solid rgb(132, 126, 113);
+    border-radius: 15px;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center; 
+    text-align: center;
+  }
+  
+
+  .form-containerup {
+    width: 40rem;
+    height: 35rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(205, 203, 201);
+    border: 1px solid rgb(132, 126, 113);
+    border-radius: 15px;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center; 
+    text-align: center;
+  }
+
+  .bg{
+    background-color: rgb(200, 193, 184) ;
+    height: 100rem;
+  }
+
+  .bg2{
+    background-color: rgb(215, 203, 187) ;
+    height: 100rem;
+  }
+  
+  .marg{
+    margin-top: 0.2vh;
+    margin-bottom: 1vh;
+  }
+  
+  .text{
+    margin-top: 5vh;
+    margin-bottom: -10rem;
+    color: rgb(131, 100, 80);
+  }
+
+  .labelbkl{
+    margin-top: -0.2vh;
+    margin-bottom: -1rem;
+    margin-left: -23rem;
+    color: #836450; 
+  }
+  
+  .labelbkr{
+    margin-top: -0.2vh;
+    margin-bottom: -1rem;
+    margin-left: 15rem;
+    color: rgb(131, 100, 80); 
+  }
+  .text_password{
+    margin-bottom: -2rem;
+    color: rgb(191, 114, 63);
+  }
+  
+  .input_box{
+    background-color: rgb(143, 130, 117);
+    color: rgb(255, 251, 251);
+    border-radius: 15px;
+    border: 1px solid #dbb280; 
+    font-size: 1rem; 
+    padding: 0.7rem; 
+    width: 100%; 
+  }
+  
+  .input_boxbkl{
+    background-color: rgb(89, 79, 68);
+    color: rgb(255, 251, 251);
+    border-radius: 15px;
+    border: 1px solid #3e3122; 
+    font-size: 1rem; 
+    padding: 0.2rem;
+    margin-left: -20rem; 
+    margin-top: 1rem;
+    width: 40%; 
+  }
+
+
+   
+  .updatebox{
+    background-color: rgb(89, 79, 68);
+    color: rgb(255, 251, 251);
+    border-radius: 15px;
+    border: 1px solid #3e3122; 
+    font-size: 1rem; 
+    padding: 0.2rem;
+    margin-left: 10rem; 
+    margin-right: 15rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    width: 50%; 
+  }
+
+
+  .input_boxbkr{
+    background-color: rgb(89, 79, 68);
+    color: rgb(255, 251, 251);
+    border-radius: 15px;
+    border: 1px solid #110e0a; 
+    font-size: 1rem; 
+    margin-left: 25rem; 
+    margin-right: 15rem;
+    padding: 0.2rem;
+    width: 30%; 
+  }
+  .button {
+    background-color: rgb(169, 155, 155);
+    font-size: 1rem;
+    padding: 0.6rem;
+    border-radius: 7px;
+    text-align: center;
+    width: 5rem;
+    color: rgb(42, 34, 34);
+    margin-top: 4rem; 
+    border-color: rgb(94, 78, 61);
+    border-width: 2px;
+  }
+
+  .buttonbk{
+    background-color: rgb(180, 152, 121);
+    font-size: 1rem;
+    padding: 0.6rem;
+    border-radius: 7px;
+    text-align: center;
+    width: 5rem;
+    color: rgb(42, 34, 34);
+    margin-top: 1rem; 
+    border-color: rgb(94, 78, 61);
+    border-width: 2px;
+  }
+
+  .buttonup{
+    background-color: rgb(180, 152, 121);
+    font-size: 1rem;
+    padding: 0.6rem;
+    border-radius: 7px;
+    text-align: center;
+    width: 5rem;
+    margin-left: 1rem;
+    color: rgb(42, 34, 34);
+    margin-top: 3rem; 
+    border-color: rgb(94, 78, 61);
+    border-width: 2px;
+  }
+  
+  .bookingtitle{
+    height: 5rem;
+    display: block;
+    padding-top: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+    font-family:impact;
+    color: rgb(180, 134, 54);
+    font-size: 35px;
+ 
+  }
+  
+
+  .updatetitle{
+    height: 5rem;
+    display: block;
+    padding-top: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+    font-family:impact;
+    color: rgb(180, 134, 54);
+    font-size: 35px;
+ 
+  }
+
+  .text2{
+    height: 5rem;
+    display: block;
+    margin-top: -8rem;
+    text-align: left;
+    padding-left: 1rem;
+    font-family:impact;
+    color: rgb(126, 102, 62);
+    font-size: 35px;
+    
+  }
+  
+  .text2bk{
+    height: 5rem;
+    display: block;
+    margin-top: -8rem;
+    text-align: left;
+    padding-left: 1rem;
+    font-family:impact;
+    color: rgb(126, 102, 62);
+    font-size: 35px;
+    
+  }
+  .active {
+    display: inline-block;
+    margin-top: -4rem;
+    margin-left: 1rem;
+    background-color: #766d49;
+    color: #fff;
+    border-top-left-radius: 0.5rem;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-top-right-radius: 0.5rem;
+    padding: 1rem;
+    
+  }
+  .test{
+    background-color: rgb(162, 147, 126);
+    height: 3.6rem;
+    padding-top: -2rem;
+  }
+
+  .notactive {
+    display: inline-block;
+    background-color: #beb695;
+    color: #fff;
+    border-top-left-radius: 0.5rem;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-top-right-radius: 0.5rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    
+  }
+/* Bang saya gak suka design */
+  .userdetail{
+    color: rgb(5, 7, 7);
+    text-align: left;
+    font-size: 14px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1rem;
+  }
